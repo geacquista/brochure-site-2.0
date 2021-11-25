@@ -12,6 +12,7 @@ html, body {
 }
 
 .background-board {
+    background-color: #0e0504;
     background-image: url('assets/chalkboard-black.jpg');
     background-repeat: no-repeat;
     background-size: cover;
