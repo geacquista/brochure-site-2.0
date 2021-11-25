@@ -64,7 +64,6 @@ li {
 li:hover {
     transform: translateY(-5px);
     background-color: #a86f49;
-    color: #efc3a4;
 }
 
 li a {
@@ -79,6 +78,7 @@ li a {
 
 a:hover {
     color:#4b1f0e;
+    font-size:larger;
 }
 
 #main-wrapper {
@@ -146,7 +146,7 @@ h2 {
     box-shadow: #0e0504 1px 0 4px;
 }
 
-#footer-link {
+.footer-link {
     color: #efc3a4;
     display: flex;
     width:20%;
@@ -155,6 +155,11 @@ h2 {
     padding:1%;
     box-shadow: #0e0504 0px 0px 2px;
     text-decoration: none;
+}
+
+.footer-link:hover {
+    color: rgb(206, 186, 160);
+    font-size:larger;
 }
 
 #footer-survey {
